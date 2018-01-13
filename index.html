@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="public/styles/base.css">
+  <title> Teacher Marty is...</title>
+
+  <!-- handlebars template -->
+  <script id="projects-template" type="text/x-handlebars-template">
+    <article data-category="{{techUsed}}">
+      <section class="projSummary">
+        <figure class="tinted-image" >
+          <div class="overlay" style="background-color:{{overlay}}">
+            <h1><a href="{{link}}">{{title}}</a></h1>
+          </div>
+          <img src={{image}}>
+        </figure>
+        <header>
+
+          <div class="projInfo">
+            Published: {{publishedDate}}{{publishStatus}}<br>
+            Technology Used: {{techUsed}}
+          </div>
+        </header>
+
+        {{{summary}}}</section>
+        <a href="#" class="read-on">Read on &rarr;</a>
+
+      </article>
+      <hr>
+    </script>
+
+
+  </head>
+  <body>
+    <header>
+      <div class="headerBlock">
+        <h1 class="titleBlock"> Teacher Marty Is...</h1>
+      </div>
+      <nav class="main-nav">
+        <span class="icon icon-menu"></span>
+
+        <ul>
+          <li class="tab" data-content="projSection"><a href="/" class="icon-stack"> Projects</a></li>
+          <li class="tab" data-content="about"><a href="/about" class="icon-profile"> About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="projSection" class="tab-content">
+        <div>
+          <select id="tech-filter">
+            <option value="">-- Filter by Technology --</option>
+          </select>
+          <div id="projectsContainer">
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+    <footer>
+      &copy; 2018  | danielle w. beyer | do what challenges you
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
+
+  </body>
+
+  </html>
