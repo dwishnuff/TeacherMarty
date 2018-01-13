@@ -1,0 +1,66 @@
+@import "icons.css";
+/*@import "layout.css"; /*may get added later*/
+@import "modules.css";
+@import "desktop.css" (min-width: 850px);
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+
+
+
+
+
+.template {
+  display: none;
+}
+
+
+
+body {
+  font-family: 'Shadows Into Light Two', cursive;
+  line-height: 1.25em;
+  font-size: 100%;
+  background-color: #b06fe2;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+.titleBlock {
+  background: #7534a8;
+  color: white;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 8em;
+  text-shadow: 2px 2px #a42ab2;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+article {
+  min-height: 250px;
+  margin-top: 20px;
+}
+
+
+/*PHONE FONTS -- http://typecast.com/blog/a-more-modern-scale-for-web-typography*/
+h1  {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+h2  {
+  font-size: 1.625em;
+  line-height: 1.15384615em;
+}
+
+h3  {
+  font-size: 1.375em;
+  line-height: 1.13636364em;
+}
+
+h4  {
+  font-size: 1.125em;
+  line-height: 1.1111em;
+}
