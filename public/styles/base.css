@@ -1,0 +1,104 @@
+@import "icons.css";
+/*@import "layout.css"; /*may get added later*/
+@import "modules.css";
+@import "desktop.css" (min-width: 850px);
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Anonymous+Pro|Cutive+Mono|Fira+Mono|Patrick+Hand+SC');
+
+
+
+.social {
+  float:right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.template {
+  display: none;
+}
+
+.tech:before {
+  content: "Technology Used: ";
+}
+
+.publishInfo:before {
+  content: "Published On: ";
+}
+
+body {
+  font-family: 'Fira Mono', monospace;
+  line-height: 1.25em;
+  font-size: 100%;
+}
+
+hr {
+  background-color: #FC4A1A;
+  color: #FC4A1A;
+}
+
+.titleBlock {
+  background: #4ABDAC;
+  color: #DFDCE3;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  display: inline-block;
+  width: 100%;
+}
+
+article {
+  min-height: 250px;
+  margin-top: 20px;
+}
+/*LINK STYLES
+=======================================*/
+
+a, a:link {
+  text-decoration: none;
+  color: #777;
+}
+a:visited {
+  color: #FC4A1A;
+}
+
+a:hover, a:focus {
+  color: #F7B733;
+}
+
+a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+/*PHONE FONTS -- http://typecast.com/blog/a-more-modern-scale-for-web-typography*/
+h1  {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+h2  {
+  font-size: 1.625em;
+  line-height: 1.15384615em;
+}
+
+h3  {
+  font-size: 1.375em;
+  line-height: 1.13636364em;
+}
+
+h4  {
+  font-size: 1.125em;
+  line-height: 1.1111em;
+}
+
+
+/*font-family: 'Fira Mono', monospace;
+font-family: 'Patrick Hand SC', cursive;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Amatic SC', cursive;*/
+
+/*color schemes
+#4ABDAC green rgb 74 189 172
+#FC4A1A orange rgb 252, 74, 26
+  #eea309 one shade darker gold
+#F7B733 gold rgb 247, 183, 51
+#DFDCE3 grey rgb 223, 220, 227
