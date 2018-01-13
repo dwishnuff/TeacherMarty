@@ -33,7 +33,8 @@
 
 
   </head>
-  <body>
+  <body onload="myNewSrc()">
+
     <header>
       <div class="headerBlock">
         <h1 class="titleBlock"> Teacher Marty Is...</h1>
@@ -48,6 +49,12 @@
       </nav>
     </header>
     <main>
+      <div id="videoPlayer" >
+          <video preload="auto" onended="myAddListener()" autoplay controls width="480" height="360" title="" poster="https://placehold.it/350x150">
+          <source src="" type="video/mp4">
+          </video>
+      </div>
+    
       <section id="projSection" class="tab-content">
         <div>
           <select id="tech-filter">
@@ -67,6 +74,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src="public/scripts/script.js"></script>
 
 
   </body>
