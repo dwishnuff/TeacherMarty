@@ -6,67 +6,190 @@
   <link rel="stylesheet" href="public/styles/base.css">
   <title> Teacher Marty is...</title>
 
-  <!-- handlebars template -->
-  <script id="projects-template" type="text/x-handlebars-template">
-    <article data-category="{{techUsed}}">
-      <section class="projSummary">
-        <figure class="tinted-image" >
-          <div class="overlay" style="background-color:{{overlay}}">
-            <h1><a href="{{link}}">{{title}}</a></h1>
-          </div>
-          <img src={{image}}>
-        </figure>
-        <header>
-
-          <div class="projInfo">
-            Published: {{publishedDate}}{{publishStatus}}<br>
-            Technology Used: {{techUsed}}
-          </div>
-        </header>
-
-        {{{summary}}}</section>
-        <a href="#" class="read-on">Read on &rarr;</a>
-
-      </article>
-      <hr>
-    </script>
 
 
-  </head>
-  <body onload="myNewSrc()">
+</head>
 
-    <header>
-      <div class="headerBlock">
-        <h1 class="titleBlock"> Teacher Marty Is...</h1>
-      </div>
+<body>
 
-    </header>
-    <main>
-      <div id="videoPlayer" >
-          <video preload="auto" onended="myAddListener()" autoplay controls width="480" height="360" title="">
-          <source src="" type="video/mp4">
+  <header>
+    <div class="headerBlock">
+      <h1 class="titleBlock" > Teacher Marty Is...</h1>
+    </div>
+
+  </header>
+  <main>
+    <div id="videosList">
+
+
+      <div class="video">
+        <div class="videoListCopy">
+          <a href="videodetail.html" class="buttonMore">
+            <div class="breaker"><div class="line"></div></div>
+            <div class="buttonContent">
+              <div class="linkArrowContainer">
+                <div class="iconArrowRight"></div>
+                <div class="iconArrowRightTwo"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="videoSlate">
+          <video src="public/media/best.MOV" loop>
           </video>
+
+        </div>
       </div>
 
-      <div id="videoPlayer2" >
-          <video preload="auto" onended="myAddListener()" autoplay controls width="480" height="360" title="">
-          <source src="" type="video/mp4">
+      <div class="video">
+        <div class="videoListCopy">
+          <a href="videodetail.html" class="buttonMore">
+            <div class="breaker"><div class="line"></div></div>
+            <div class="buttonContent">
+              <div class="linkArrowContainer">
+                <div class="iconArrowRight"></div>
+                <div class="iconArrowRightTwo"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="videoSlate">
+          <video src="public/media/smart.mp4" loop>
           </video>
+
+        </div>
       </div>
 
+      <div class="video">
+        <div class="videoListCopy">
+          <a href="videodetail.html" class="buttonMore">
+            <div class="breaker"><div class="line"></div></div>
+            <div class="buttonContent">
+              <div class="linkArrowContainer">
+                <div class="iconArrowRight"></div>
+                <div class="iconArrowRightTwo"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="videoSlate">
+          <video src="public/media/funny.MOV" loop>
+          </video>
+
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="videoListCopy">
+          <a href="videodetail.html" class="buttonMore">
+            <div class="breaker"><div class="line"></div></div>
+            <div class="buttonContent">
+              <div class="linkArrowContainer">
+                <div class="iconArrowRight"></div>
+                <div class="iconArrowRightTwo"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="videoSlate">
+          <video src="public/media/SmartCourageous.mp4" loop>
+          </video>
+
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="videoListCopy">
+          <a href="videodetail.html" class="buttonMore">
+            <div class="breaker"><div class="line"></div></div>
+            <div class="buttonContent">
+              <div class="linkArrowContainer">
+                <div class="iconArrowRight"></div>
+                <div class="iconArrowRightTwo"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="videoSlate">
+          <video src="public/media/fun.mp4" loop>
+          </video>
+
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="videoListCopy">
+          <a href="videodetail.html" class="buttonMore">
+            <div class="breaker"><div class="line"></div></div>
+            <div class="buttonContent">
+              <div class="linkArrowContainer">
+                <div class="iconArrowRight"></div>
+                <div class="iconArrowRightTwo"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="videoSlate">
+          <video src="public/media/thebest.MOV" loop>
+          </video>
+
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="videoListCopy">
+          <a href="videodetail.html" class="buttonMore">
+            <div class="breaker"><div class="line"></div></div>
+            <div class="buttonContent">
+              <div class="linkArrowContainer">
+                <div class="iconArrowRight"></div>
+                <div class="iconArrowRightTwo"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="videoSlate">
+          <video src="public/media/silly2.mp4" loop>
+          </video>
+
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="videoListCopy">
+          <a href="videodetail.html" class="buttonMore">
+            <div class="breaker"><div class="line"></div></div>
+            <div class="buttonContent">
+              <div class="linkArrowContainer">
+                <div class="iconArrowRight"></div>
+                <div class="iconArrowRightTwo"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="videoSlate">
+          <video src="public/media/silly.MOV" loop>
+          </video>
+
+        </div>
+      </div>
+
+    </div>
 
 
-    </main>
-    <footer>
-      &copy; 2018  | danielle w. beyer | do what challenges you
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
-    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
-    <script src="public/scripts/script.js"></script>
 
 
-  </body>
+  </main>
+  <footer>
+    &copy; 2018  | danielle w. beyer | do what challenges you
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+  <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+  <script src="public/scripts/script.js"></script>
 
-  </html>
+
+</body>
+
+</html>
