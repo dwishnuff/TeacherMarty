@@ -31,17 +31,14 @@ footer {
   background: #7534a8;
   color: white;
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 8em;
+  font-size: 5em;
   text-shadow: 2px 2px #a42ab2;
   display: inline-block;
   text-align: center;
   width: 100%;
 }
 
-article {
-  min-height: 250px;
-  margin-top: 20px;
-}
+
 #videosList {
   max-width: 1400px;
   margin: 0 auto;
@@ -102,6 +99,7 @@ h1  {
 h2  {
   font-size: 1.625em;
   line-height: 1.15384615em;
+  text-align: center;
 }
 
 h3  {
