@@ -3,6 +3,7 @@
 @import "modules.css";
 @import "desktop.css" (min-width: 850px);
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 
 
@@ -24,7 +25,9 @@ body {
 
 footer {
   color: white;
+  display:inline-block;
   text-align: center;
+  
 }
 
 .titleBlock {
@@ -100,11 +103,16 @@ h2  {
   font-size: 1.625em;
   line-height: 1.15384615em;
   text-align: center;
+  color: #7534a8;
 }
 
 h3  {
-  font-size: 1.375em;
+  font-size: 3em;
   line-height: 1.13636364em;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #7534a8;
+  text-shadow: 1px 1px white;
 }
 
 h4  {
